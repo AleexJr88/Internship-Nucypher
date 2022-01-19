@@ -2,7 +2,7 @@ const utils = require('../utils')
 const maticPOSClient = utils.getMaticPOSClient()
 
 const burnHash = '0x1e9e907cdbae37f0ee656c695c95adc7a2b624966c94f345bee0001f0fe44252'
-
+//hash matic exit github --> 0xbadbf10a33ba5ae48cfa1660e011eb15bf927773610ace9466c71d14749d4132
 
 const execute = async () => {
   try {
