@@ -83,6 +83,7 @@
     "webpack-cli": "3.3.4",
     "yargs": "8.0.2"
   },
+  
   "browserslist": [
     "> 1%",
     "node 8",

@@ -4,7 +4,7 @@ const maticPOSClient = utils.getMaticPOSClient()
 
 const execute = async () => {
   try {
-    const tx = await maticPOSClient.burnERC20(config.child.MaticWETH, config.user.amount,  {from: '0xf974263F93C3e026784d18426494Ff7f7BB4Cb77'})
+    const tx = await maticPOSClient.burnERC20(config.child.DERC20, config.user.amount,  {from: '0xf974263F93C3e026784d18426494Ff7f7BB4Cb77'})
     console.log(tx.transactionHash) // eslint-disable-line
   } catch (e) {
     console.error(e) // eslint-disable-line

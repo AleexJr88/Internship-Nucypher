@@ -1,6 +1,6 @@
 module.exports = {
   root: {
-    RPC: 'https://goerli.infura.io/v3/6faec02133fc42d8b3646a421ce95531',
+    RPC: 'wss://goerli.infura.io/ws/v3/6faec02133fc42d8b3646a421ce95531',
     POSRootChainManager: '0xBbD7cBFA79faee899Eaf900F13C9065bF03B1A74',
     DERC20: '0x655F2166b0709cd575202630952D71E2bB0d61Af',
     DERC721: '0x084297B12F204Adb74c689be08302FA3f12dB8A7',
@@ -15,7 +15,7 @@ module.exports = {
     DERC20: '0xfe4F5145f6e09952a5ba9e956ED0C25e3Fa4c7F1',
     DERC721: '0x757b1BD7C12B81b52650463e7753d7f5D0565C0e',
     DERC1155: '0xA07e45A987F19E25176c877d98388878622623FA',
-    MaticWETH: '0xf974263F93C3e026784d18426494Ff7f7BB4Cb77',
+    MaticWETH: '0x714550C2C1Ea08688607D86ed8EeF4f5E4F22323',
   },
   user: {
     privateKey: 'little settle orphan large rate illness long gadget time emotion bus word',
