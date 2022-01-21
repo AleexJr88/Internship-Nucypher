@@ -6,7 +6,7 @@ const burnHash = '0x1e9e907cdbae37f0ee656c695c95adc7a2b624966c94f345bee0001f0fe4
 
 const execute = async () => {
   try {
-   const tx = await maticPOSClient.exitERC20(burnHash, {from: '0xf974263F93C3e026784d18426494Ff7f7BB4Cb77'} )
+   const tx = await maticPOSClient.exitERC20(burnHash )
     console.log(tx.transactionHash) // eslint-disable-line
     //console.log(burnHash)
   
