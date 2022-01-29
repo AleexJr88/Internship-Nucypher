@@ -27,3 +27,8 @@ Faucet MATIC: https://faucet.polygon.technology/
 
 ETH faucet: https://faucets.chain.link/goerli
 
+For phase 2, we have made a smart contract in remix that is located in: examples/pos/erc20/contracts
+
+This agreement has the necessary methods to be able to accept payments and to withdraw those funds to the administrator's account.
+
+Once the funds are in the administrator's account, we could make use of the bridge by calling the functions that we used in phase 1.

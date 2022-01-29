@@ -5,7 +5,7 @@ const execute = async () => {
   const client = await getPOSClient();
   const erc20Token = client.erc20(pos.parent.erc20, true);
 
-  const result = await erc20Token.withdrawExit('0xcedca070962eddf3fa7b3661cfde9f091e64e972ddc3bb1c5b31c7ae211facd2');
+  const result = await erc20Token.withdrawExit('0xa89d85d9e26fd000653134b76b31b60b144354c0203836a9e8a2fe619368e2ef');
 
   const txHash = await result.getTransactionHash();
   console.log("txHash", txHash);

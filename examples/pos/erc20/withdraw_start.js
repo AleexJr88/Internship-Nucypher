@@ -1,11 +1,14 @@
 const { pos } = require('../../config');
 const { getPOSClient, from } = require('../../utils');
 
+
 const execute = async () => {
+  
   const client = await getPOSClient();
   const erc20Token = client.erc20(pos.child.erc20);
 
-  const result = await erc20Token.withdrawStart(10);
+  
+  const result = await erc20Token.withdrawStart(10); //modificar el 10 por la cantidad total del contrato 
 
   const txHash = await result.getTransactionHash();
   console.log("txHash", txHash);

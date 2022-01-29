@@ -9,6 +9,7 @@ if (env.error) {
 }
 
 module.exports = {
+
   parent: {
     rpc: process.env.ROOT_RPC,
   },
