@@ -34,3 +34,9 @@ This agreement has the necessary methods to be able to accept payments and to wi
 Once the funds are in the administrator's account, we could make use of the bridge by calling the functions that we used in phase 1.
 
 Another option is to use the bridge by directly withdrawing all the funds from the contract without having to send the funds to the administrator's polygon account and then using the bridge.
+
+In Remix, we deployed the MaticPayment contract. Once that is done, we choose the IERC20 contract option and instead of deploying we choose the At Address option, placing the derc20 contract address. In this case the following: 0xfe4F5145f6e09952a5ba9e956ED0C25e3Fa4c7F1.
+
+The next step is to approve the IERC20 deploy contract by setting the contract's address as the spender, in this case the following: 0x56Acb8755d672E3CAA583943A68dE366A8408f77 and as the second parameter, the amount of 1000000000000000000.
+
+Now all we have to do is go to the MaticPayment contract and enter the desired amount in the deposit method and see how derc20 funds are deposited in the contract.
