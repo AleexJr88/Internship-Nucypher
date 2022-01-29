@@ -32,3 +32,5 @@ For phase 2, we have made a smart contract in remix that is located in: examples
 This agreement has the necessary methods to be able to accept payments and to withdraw those funds to the administrator's account.
 
 Once the funds are in the administrator's account, we could make use of the bridge by calling the functions that we used in phase 1.
+
+Another option is to use the bridge by directly withdrawing all the funds from the contract without having to send the funds to the administrator's polygon account and then using the bridge.
